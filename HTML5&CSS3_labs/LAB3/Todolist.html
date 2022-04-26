@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TO Do list</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+        body{
+            margin: 50px;
+            text-align: center;
+        }
+        #div_todo{
+            position: relative;
+            border: 3px solid black;
+            background-color: azure;
+            width: 36%;
+            left: 32%;
+        }
+        #new_task{
+            width: 28%;
+            height: 6%;
+        }
+        #btn_add_to_todo{
+            width: 7%;
+            height: 9%;
+        }
+        #u_list{
+            text-align: left;
+        }
+        #l_list{
+            text-align: left;
+        }
+        .list{
+            margin-bottom: 10%;
+        }
+        .fa-check{
+            position: absolute;
+            right: 9%;
+        }
+        .fa-arrow-up{
+            position: absolute;
+            right: 9%;
+        }
+        .fa-trash{
+            position: absolute;
+            right:1%;
+        }
+        #h2_2{
+            margin-top: 30%;
+        }
+    </style>
+</head>
+    <body>
+        <input id="new_task" type="text" placeholder="TO DO">
+        <button id="addBtn">Add</button>
+        <br>
+        <p  id="para_error" style="color:red;"></p>
+        <br>
+        <div id="div_todo">
+            <h2>To do list</h2>
+            <ul id="u_list">    
+            </ul>
+                <h2 id="h2_2" >Completed list</h2>
+                <ul id="l_list">
+            </ul>
+        </div>
+        <script src="Todolist.js"></script>
+    </body>
+</html>

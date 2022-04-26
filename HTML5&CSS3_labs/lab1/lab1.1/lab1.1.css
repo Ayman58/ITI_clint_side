@@ -1,0 +1,48 @@
+*{
+    height: 100%;
+}
+header{
+    background-color: green;
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+}
+nav{
+    background-color: rgb(184, 253, 253);
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+}
+section{
+    background-color: orangered;
+    text-align: center;
+    height: 70%;
+}
+article{
+    background-color: yellow;
+    
+    height: 80%;
+    /* border: 30px 10px; */
+    margin: 30px 10px;
+}
+
+summary{
+
+    height: 10%;
+}
+details{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 70%;
+    
+}
+img{
+    height: auto;
+}
+footer{
+    text-align: center;
+    margin-top: 3px;
+    height: 10%;
+    background-color:red ;
+}

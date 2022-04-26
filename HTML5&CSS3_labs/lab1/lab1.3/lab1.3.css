@@ -1,0 +1,21 @@
+.bigdiv{
+    margin-top: 50px;
+    text-align: center;
+    border:2px solid;
+    background-color: lightcyan;
+    width: 400px;
+}
+button{
+    margin: 10px;
+}
+.big{
+    border:2px solid;
+    background-color: rgb(226, 225, 225);
+}
+.big div{
+    background-color:rgb(175, 171, 171) ;
+    border:2px solid;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}

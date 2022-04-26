@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flat Table</title>
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form id="myForm" onsubmit="event.preventDefault();" autocomplete="off" >
+        <div class="table">
+            <div class="row">
+                <div class="input-group">
+                    <label>Name</label>
+                    <input type="text" class="text bar" id="txtName">
+                    <div class="error-message" id="nameError">Name is a required field.</div>
+                </div>
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="text" class="text bar" id="txtEmail" >
+                    <div class="error-message" id="emailError">Email is a required field.</div>
+                </div>
+                <div class="input-group">
+                    <label>Phone</label>
+                    <input type="text" class="text bar" id="txtPhone">
+                    <div class="error-message" id="phoneError">Phone is a required field.</div>
+                </div>
+            </div>
+
+            <div class="submit row">
+                <button id="submit" type="submit">Submit</button>
+            </div> <br>
+        </div>
+    </form>
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th colspan="4">Contact List</th>
+            </tr>
+            <tr>
+                <th>NAME</th>
+                <th>EMAIL</th>
+                <th>PHONE</th>
+                <th colspan="2">ACTION</th>
+            </tr>
+        </thead>
+        <tbody id="contact_table_body">
+        </tbody>
+    </table>
+
+    <script type="text/javascript" src="script.js">
+    </script>
+</body>
+
+</html>
